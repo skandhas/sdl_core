@@ -588,7 +588,7 @@ SDL.SDLController = Em.Object
                 deviceName: params.deviceName,
                 appType: params.appType
             }));
-
+/*Uncomment to show useless add command buttons
             var exitCommand = {
                 "id": -10,
                 "params": {
@@ -601,7 +601,7 @@ SDL.SDLController = Em.Object
                 }
             };
 
-            SDL.SDLController.getApplicationModel(params.appID).addCommand(exitCommand);
+          SDL.SDLController.getApplicationModel(params.appID).addCommand(exitCommand);
 
             exitCommand = {
                 "id": -10,
@@ -616,6 +616,7 @@ SDL.SDLController = Em.Object
             };
 
             SDL.SDLController.getApplicationModel(params.appID).addCommand(exitCommand);
+*/
         },
         /**
          * Unregister application

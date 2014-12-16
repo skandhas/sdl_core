@@ -418,10 +418,6 @@ FFW.BasicCommunication = FFW.RPCObserver
                 }
                 if (request.method == "BasicCommunication.UpdateAppList") {
 
-                    var message = "Was found " + request.params.applications.length + " apps";
-
-                    SDL.PopUp.create().appendTo('body').popupActivate(message);
-
                     this.sendBCResult(SDL.SDLModel.resultCode["SUCCESS"],
                         request.id,
                         request.method);

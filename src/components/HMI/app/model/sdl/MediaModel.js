@@ -333,7 +333,7 @@ SDL.SDLMediaModel = SDL.SDLAppModel.extend({
                 }
             } else {
 
-                this.appInfo.set('alignment', "text-align:center");
+                //this.appInfo.set('alignment', "text-align:center");
             }
 
             if (params.graphic && params.graphic.value != '') {
